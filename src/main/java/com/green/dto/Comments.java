@@ -39,7 +39,7 @@ public class Comments {
    private String nickname;
    
    //외래키 설정
-   @ManyToOne            //多:一 관계
+   @ManyToOne                      //多:一 관계
    @JoinColumn(name="article_id") // 외래키 칼럼
    private Article article;   // 연결될 entity 객체 명 
    
